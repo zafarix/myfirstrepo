@@ -13,7 +13,7 @@ jobs:
   steps:
   - task: DotNetCoreInstaller@0
     inputs:
-      packageType: 'sdk'
+      packageType: 'sdk' 
       version: '2.2.401'
   - script: dotnet build ./SimplCommerce.sln
     displayName: 'dotnet build'
